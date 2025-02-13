@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form 4</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            border: 2px solid gray;
+        }
+        th, td {
+            border: 2px solid gray;
+            padding: 5px;
+            text-align: center;
+        }
+        td.label {
+            text-align: left; 
+        }
+        td.center {
+            text-align: center; 
+        }
+        
+    </style>
+</head>
+<body>
+    <table>
+        <thead>
+            <tr>
+                <th colspan="2">Sign In</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="label">E-mail Address</td>
+                <td class="center"><input type="text" id="email" name="email"></td>
+            </tr>
+            <tr>
+                <td class="label">Password</td>
+                <td class="center"><input type="password" id="password" name="password"></td>
+            </tr>
+            <tr>
+                <td colspan="2" ><button type="submit">Sign in</button></td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>

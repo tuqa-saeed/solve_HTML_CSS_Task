@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video z-index</title>
+    <style>
+        body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+        .container{
+            display: grid;
+            grid-template-columns: repeat(4,1fr);
+            gap: 10px;
+            height: fit-content;
+            margin-top:200px ;
+        }
+        .childe{
+            display: flex;
+            width: 100px;
+            height: 100px;
+            border-radius: 20px;
+            text-align: center;
+            justify-content: center;
+            padding: 90px;
+            color: azure;
+            font-size: x-large;
+
+        }
+        .ab{
+            position: sticky;
+            top: 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="childe" style=" background-color: lightblue;"         >1</div>
+        <div class="childe" style=" background-color: yellow;"           >2</div>
+        <div class="childe" style=" background-color: greenyellow;"        >3</div>
+        <div class="childe ab" style=" background-color: plum;"           >4</div>
+        <div class="childe" style=" background-color: palevioletred;"        >5</div>
+        <div class="childe" style=" background-color: lightcoral;"           >6</div>
+        <div class="childe" style=" background-color: lightblue;"      >7</div>
+        <div class="childe" style=" background-color: lightgreen;"          >8</div>
+        <div class="childe" style=" background-color: yellow;"  >9</div>
+        <div class="childe" style=" background-color: plum;"           >10</div>
+        <div class="childe" style=" background-color: pink;"          >11</div>
+    </div>
+    <div style="height: 500px; margin-top: 500px;"> <h2>Hello world</h2>
+        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+        <div style="height: 500px; margin-top: 500px;"> <h2>Hello world</h2>
+            <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+            <div style="height: 500px; margin-top: 500px;"> <h2>Hello world</h2>
+
+      
+</body>
+</html>

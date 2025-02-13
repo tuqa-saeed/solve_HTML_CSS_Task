@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Browser</title>
+    <style>
+        * {
+            padding: 0px;
+            margin: 0px;
+            box-sizing: border-box;
+        }
+        nav {
+            height: 10vh;
+            display: flex;
+            justify-content: space-between;
+        }
+        .btn {
+            display: flex;
+            justify-content: center;
+            gap: 2px;
+            margin-top: 5px;
+        }
+        ul {
+            list-style: none;
+            display: flex;
+            gap: 10px;
+            margin: 20px;
+        }
+       
+        section {
+            height: 80vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        img {
+            width: 200px;
+            height: 150px;
+        }
+        input {
+            width: 350px;
+            height: 25px;
+            border-radius: 25px;
+            border: 1px solid #333;
+            outline: none;
+        }
+        button {
+            border-radius: 8px;
+            border: none;
+            padding: 10px;
+            cursor: pointer;
+        }
+        
+        footer {
+            height: 10vh;
+            display: flex;
+            justify-content: space-between;
+            background-color: gray;
+        }
+        .div-nav{
+            text-decoration: none;
+            color:gray;
+            height: 20px;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="div-nav">
+            <ul>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Store</a></li>
+            </ul>
+        </div>
+        <div class="div-nav">
+            <ul>
+                <li><a href="#">Profile</a></li>
+                <li><a href="#">Settings</a></li>
+            </ul>
+        </div>
+    </nav>
+    <section>
+        <img src="..\solveTask7\img\browser.jpg">
+        <form method="post" action="">
+            <input type="text">
+            <div class="btn">
+                <button type="submit" value="Do-the-thing!">Do the thing!</button>
+                <button type="submit" value="Do-the-other-thing!">Do the other thing!</button>
+            </div>
+        </form>
+    </section>
+    <footer>
+        <div class="div-nav">
+            <ul>
+                <li><a href="#">Advertising</a></li>
+                <li><a href="#">Business</a></li>
+            </ul>
+        </div>
+        <div class="div-nav">
+            <ul>
+                <li><a href="#">Privacy</a></li>
+                <li><a href="#">Terms</a></li>
+            </ul>
+        </div>
+    </footer>
+</body>
+</html>

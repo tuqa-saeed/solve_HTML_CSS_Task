@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Nav Flexbox </title>
+    <style>
+        .navbar {
+            display: flex;
+            justify-content: space-between; 
+            align-items: center; 
+            background-color:white; 
+            padding: 10px 20px;
+        }
+
+        .logo {
+            font-weight: bold;
+            font-size: 1.2em;
+        }
+
+        .nav-links {
+            display: flex; 
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        .nav-links li {
+            margin-left: 20px; 
+        }
+
+        .nav-links a {
+            text-decoration: none; 
+            color:blue; 
+        }
+        .div-nav{
+            position: relative;
+            top: -20px;
+            right: -20px;
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class ="div-nav">nav</div>
+        
+        <div class="logo">
+            <span style="color:red; font-size:2em;">&#9679;</span> 
+        </div>
+        <hr>
+        <ul class="nav-links">
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">Work</a></li>
+            <li><a href="#">Portfolio</a></li>
+        </ul>
+    </nav>
+
+</body>
+</html>

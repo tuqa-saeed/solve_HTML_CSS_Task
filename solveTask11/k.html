@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Complex Grid</title>
+    <style>
+        .container{
+     display: grid;
+     grid-template-columns: repeat(4, 1fr) ; 
+     gap: 5px;  
+    }
+    .container > div{
+        height: 200px;
+        background-color:grey;
+    } 
+    .four{
+        display: grid;
+         grid-template-columns: repeat(2, 1fr) ; 
+        gap: 5px; 
+    }
+    .four > div {
+        background-color: aqua;
+    }
+    .item6{
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 5px;
+    }
+    .item6 >div{
+        background-color: aqua;
+    }
+    .item7{
+        display: grid;
+        grid-template-columns:1fr 1fr;
+        gap: 5px;
+    }
+    .item7 >div{
+        background-color: grey;
+    }
+    
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div >Item1</div>
+        <div class="four">
+            <div>sub1</div>
+            <div>sub2</div>
+            <div>sub3</div>
+            <div>sub4</div>
+        </div>
+        <div class="four">
+            <div>sub1</div>
+            <div>sub2</div>
+            <div>sub3</div>
+            <div>sub4</div>
+        </div>
+        <div >Item4</div>
+        <div >Item5</div>
+        <div class="item6"> 
+            <div>sub1</div>
+            <div>sub2</div>
+        </div>
+        <div class="item7">
+            <div>sub1</div>
+            <div>sub2</div>
+        </div>
+        <div >Item8</div>
+        <div class="four">
+            <div>sub1</div>
+            <div>sub2</div>
+            <div>sub3</div>
+            <div>sub4</div>
+        </div>
+        <div >Item10</div>
+        <div >Item11</div>
+        <div class="four">
+            <div>sub1</div>
+            <div>sub2</div>
+            <div>sub3</div>
+            <div>sub4</div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,224 @@
+
+#red{
+    color: red;
+}
+#blue{
+    color: blue;
+}
+#green{
+    color: rgb(111, 116, 111);
+}
+#yellow{
+    color: yellow;
+}
+#colors{
+    color: aquamarine
+}
+#inline{
+color: red;
+}
+#sp{
+    text-decoration: underline;
+}
+.inl{
+    color:blueviolet;
+    font-size: 30px;
+
+}
+#spa{
+    text-decoration: underline;
+
+}
+#inli{
+color: brown;
+}
+#spn{
+    text-decoration: underline;
+}
+.inlii{
+    color: yellow;
+    font-size: 3em;
+}
+.in{
+    color:lightpink ;
+    font-size: 2em;
+
+}
+#spnn{
+    text-decoration: underline;
+
+}
+#spaa{
+    text-decoration: underline;
+
+}
+.man{
+    background-color: blue;
+    color: wheat;
+    padding: 5px;
+}
+#bl{
+    color: red;
+}
+#upp{
+    text-transform: uppercase; 
+
+}
+#gre{
+    color: green;
+}
+.back{
+    background-color: blue;
+    color: white;
+}
+.imm{
+   
+    background-image:url("images/bg.jpg");
+    padding: 50px;
+    text-align: left;
+   
+}
+.repeatY{
+    background-repeat: repeat-y;
+    background-image: url(images/frame.jpg); 
+     height: 400px; 
+     color:black;
+
+}
+.class-blu{
+    color: lightskyblue;
+}
+#sec-green{
+color: lightgreen;
+}
+#for-red{
+color: red;
+}
+.first{
+    color:red;
+    background-color: wheat;
+}
+.second{
+    color:white;
+    background-image: url(images/secondBackground.jpg); 
+    text-align: left;  
+    background-size: cover;
+
+
+}
+.thired{
+    color:azure;
+    background-image: url(images/thiredBg.jpg); 
+    text-align: left;
+    background-size: cover;
+}
+
+.erica-one-regular {
+        font-family: "Erica One", serif;
+        font-weight:500;
+        font-style: normal;
+        color: green;
+}
+.under{
+    text-decoration: underline;
+    color: aquamarine;
+}
+.id_sel{
+    color: yellowgreen;
+    background-color: aqua;
+}
+.basic{
+    background-color: aquamarine;
+}
+p.basic1{
+    color: red;
+    
+}
+p.basic2{
+    color: blue;
+}
+p.numb{
+    color: red;
+}
+.contact{
+    background-color: brown;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    
+}
+/* .form{
+    border: ;
+    padding: 10px;
+    background-color: ;
+    text-align: center;
+    
+}
+.input{
+    
+    width: 100%;
+} */ 
+
+.num{
+    
+    background-color: purple;
+    text-align: center;
+    }
+.odd {
+    color: blue;
+    }
+.even {
+    color: red;
+    
+}
+form {
+    border: solid 4px black;
+    width: 25%;
+    height: 25%;
+    padding: 10px;
+    background-color: bisque;
+}
+
+input {
+    display: block;
+    font-size: 15px;
+    width: 97%;
+    height: 40px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    
+}
+textarea{
+    
+    width: 97%;
+    height: 60px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 15px;
+    display: block;
+}
+.in-butt{
+    border:  solid 5px black;
+    background-color: yellow;
+    color: black;
+}
+
+.color-bg{
+    background: linear-gradient(-173.5deg, #1f1f7a 0%, #80005a 50%, #d4ff00 50%, #05c605 100%);
+    color: black;
+    height: 150px;
+    text-align: center;
+    padding: 50px;
+    font-size: 25px;
+}
+.vr-hr{
+    background-image: url(images/bg.jpg), url(images/secondBackground.jpg);
+    background-repeat: repeat-y, repeat-x;
+   background-size: 500px ,  500px;
+   height: 1500px;
+   background-position: left top, left top;
+}
+
+
+
+  

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>studio pic</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      background-color: #f4f4f4;
+    }
+
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+      gap: 20px;
+      max-width: 1200px;
+      width: 100%;
+      padding: 20px;
+    }
+
+    .gallery-item {
+      position: relative;
+    }
+
+    .gallery-item img {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+
+    .status {
+      position: absolute;
+      top: 10px;
+      left: 10px;
+      background: rgba(0, 0, 0, 0.7);
+      color: #fff;
+      padding: 5px 10px;
+      font-size: 14px;
+    }
+
+    .status.available {
+      background: gray;
+    }
+
+    .status.sold {
+      background: gray;
+    }
+  </style>
+</head>
+<body>
+  <div class="gallery">
+    <div class="gallery-item">
+      <img src="img/bg1.jpg" alt="bg1">
+      <span class="status available">Available</span>
+    </div>
+    <div class="gallery-item">
+      <img src="img/bg2.jpg" alt="bg2">
+      <span class="status sold">Sold</span>
+    </div>
+    <div class="gallery-item">
+      <img src="img/bg3.jpg" alt="bg3">
+      <span class="status sold">Sold</span>
+    </div>
+    <div class="gallery-item">
+      <img src="img/bg4.jpg" alt="bg4">
+      <span class="status available">Available</span>
+    </div>
+  </div>
+</body>
+</html>

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fieldset </title>
+    <style>
+        
+
+        .box {
+            width: 100%;
+            max-width: 600px; 
+            border: 2px solid gray;
+            position: relative;
+            font-size: 16px;
+            margin: 20px auto; 
+            padding: 20px;
+        }
+
+        .box span {
+            background-color: white;
+            padding: 0px 5px;
+            position: absolute;
+            top: -14px;
+            left: 20px;
+            display: inline-block;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <span>Personalia</span>
+        <label for="first-name">First name:</label>
+        <input type="text" id="first-name" name="first-name" >
+        <br><br>
+
+        <label for="last-name">Last name:</label>
+        <input type="text" id="last-name" name="last-name" >
+        <br><br>
+    
+        <label for="email">Email :</label>
+        <input type="email" id="email" name="email" >
+        <br><br>
+    
+        <label for="birthday">Birthday:</label>
+        <input type="date" id="birthday" name="birthday">
+        <br><br>
+    
+        <button type="submit">Send</button>
+    </div>
+</body>
+</html>

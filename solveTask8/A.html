@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Z-index</title>
+</head>
+<style>
+    div{
+        color: black;
+    }
+</style>
+<body>
+    <h1>This is your first position  Z-index </h1>
+    <div>
+    <div style="position: relative; border: 1px solid black; z-index: 1;">
+        <p>Div1 position =Relative</p>
+    </div>
+    <div style="position: fixed; z-index: 3; background-color: lightblue; margin-left: 20px; margin-top: -25px; width: 75%; left: 150px;">
+        <p>Div2 position =fixed  z-index</p>
+    </div>
+    <div style="position: absolute; background-color: lightgreen; z-index: 2; top: 59px; left: 250px; width: 50%;">
+        <p>Div3 position =absolute</p>
+    </div>
+</div>
+</body>
+</html>

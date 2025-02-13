@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inline and Block</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 20px;
+        }
+
+        .box, .inline-box {
+            width: 100%;
+            border: 2px solid gray ;
+            position: relative;
+            font-size: 16px;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+
+        .box span, .inline-box span {
+            background-color: white;
+            padding: 0 5px;
+            position: absolute;
+            top: -14px;
+            left: 20px;
+        }
+
+        ul {
+            margin: 10px 0 0 20px;
+            padding: 0;
+        }
+
+        ul li {
+            margin-bottom: 5px;
+        }
+
+        p {
+            margin-top: 20px;
+        }
+
+      
+    </style>
+</head>
+<body>
+    <h1>Inline and Block</h1>
+
+    <div class="box">
+        <span>Using Block (paragraph, unordered list)</span>
+        <p>
+            <mark>Sports is a large global business.</mark><br>
+            <u>Billions of dollars</u> are spent at sporting events, on sports teams, on sports events, as well as on sports-related equipment and apparel. This guide is devoted to those sports that are the largest in terms of monies at the professional level
+            and as a result, not every sport is included. The primary focus is on the professional sports industry in the United States although there are a few instances in which the international aspects of the industry are mentioned. Because of
+            the focus on professional sports, the Olympics and amateur events are not included.
+        </p>
+        <ul>
+            <li>Football</li>
+            <li>Cricket</li>
+            <li>Soccer</li>
+            <li>Volleyball</li>
+            <li>Baseball</li>
+            <li>Basketball</li>
+            <li>Boxing</li>
+            <li>Golf</li>
+            <li>Badminton</li>
+            <li>Table tennis</li>
+        </ul>
+    </div>
+
+    <div class="inline-box">
+        <span>Using Inline (span, img)</span>
+        <p>
+            <strong>What is a healthy diet?</strong><br>
+            Eating a healthy diet is not about strict limitations, staying unrealistically thin, or depriving yourself of the foods you love. Rather, it's about feeling great, having more energy, improving your health, and boosting your mood.
+            <img src="images\diet.jpg" alt=" Diet">
+            While some extreme diets may suggest otherwise, we all need a balance of protein, fat, carbohydrates, fiber, vitamins, and minerals in
+            our diets to sustain a healthy body. You don't need to eliminate certain categories of food from your diet, but rather select the healthiest options from each category. 
+        </p>
+        <p>
+            <u>Using  for the following:</u> 
+            <em><mark>Fruit/vegetables, legumes (e.g. lentils and beans), nuts, and whole grains (e.g. unprocessed maize, millet, oats, wheat, and brown rice)</mark></em>.
+        </p>
+    </div>
+</body>
+</html>

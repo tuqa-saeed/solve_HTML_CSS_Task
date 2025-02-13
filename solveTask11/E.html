@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> Grid 2</title>
+  <style>
+
+    .grid-container {
+      display: grid;
+      grid-template-areas: 
+        "item1 item1 item2 item2 item2"
+        "item1 item1 item4 item4 item5"
+        "item3 item3 item4 item4 item6";
+      grid-template-columns: repeat(5,1fr);
+      grid-gap: 20px;
+      max-width: 1200px;
+      width: 100%;
+      padding: 20px;
+      height: 600px;
+    }
+
+    .grid-item {
+      font-size: 20px;
+      color: black;
+      font-weight: bold;
+      border-radius: 10px;
+      height: auto;
+    }
+
+    .item1 {
+      grid-area: item1;
+      background-color: blue;
+    }
+
+    .item2 {
+      grid-area: item2;
+      background-color: lightblue;
+    }
+
+    .item3 {
+      grid-area: item3;
+      background-color: purple;
+    }
+
+    .item4 {
+      grid-area: item4;
+      background-color: lightgreen;
+    }
+
+    .item5 {
+      grid-area: item5;
+      background-color: lightgreen;
+    }
+
+    .item6 {
+      grid-area: item6;
+      background-color: pink;
+    }
+  </style>
+</head>
+<body>
+  <div class="grid-container">
+    <div class="grid-item item1">1</div>
+    <div class="grid-item item2">2</div>
+    <div class="grid-item item3">3</div>
+    <div class="grid-item item4">4</div>
+    <div class="grid-item item5">5</div>
+    <div class="grid-item item6">6</div>
+  </div>
+</body>
+</html>

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Different Border Styles</title>
+<style>
+body {
+  font-family: sans-serif;
+}
+
+.box {
+  width: 200px;
+  height: 100px;
+  margin: 20px auto; 
+  padding: 10px;
+  text-align: center;
+  border-width: 5px; 
+}
+
+
+.dotted {
+  border-style: dotted dashed;
+}
+
+.dashed {
+  border-style: dashed dotted solid;
+}
+
+.solid {
+  border-style: dashed solid ;
+}
+
+.double {
+  border-style: double  groove groove ;
+}
+
+.groove {
+  border-style: groove;
+}
+
+.ridge {
+  border-style: ridge  dashed;
+}
+
+.mixed {
+  border-style: solid dashed dotted double; 
+  border-color: red green blue yellow;  
+}
+</style>
+</head>
+<body>
+
+<div class="box dotted">
+  This is a dotted border.
+</div>
+
+<div class="box dashed">
+  This is a dashed border.
+</div>
+
+<div class="box solid">
+  This is a solid border.
+</div>
+
+<div class="box double">
+  This is a double border.
+</div>
+
+<div class="box groove">
+  This is a groove border.
+</div>
+
+<div class="box ridge">
+  This is a ridge border.
+</div>
+
+<div class="box mixed">
+  This box has mixed border styles and colors.
+</div>
+
+</body>
+</html>

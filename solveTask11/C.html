@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>semantic grid</title>
+    <style>
+        .container{
+            display: grid;
+            grid-template-areas: "header header"
+            "sidbar nav"
+            "sidbar artical"
+            "sidbar artical"
+            "sidbar artical"
+            "footer footer";
+            grid-template-columns: 1fr 3fr;
+            gap: 10px;
+            padding: 5px;
+        }
+        header {
+            grid-area: header;
+            background-color: yellow;
+            width: 100%;
+            height: 50px;
+            border-radius: 12px;
+            text-align: center;
+            color: white;
+
+        }
+        aside {
+            grid-area: sidbar;
+            background-color: orange;
+            height: 450px;
+            border-radius: 12px;
+            text-align: center;
+            color: white;
+
+
+        }
+        article {
+            grid-area: artical;
+            background-color: lightcyan;
+            border-radius: 12px;
+            text-align: center;
+            color: white;
+
+        }
+        footer {
+            grid-area: footer;
+            background-color: magenta;
+            border-radius: 12px;
+            height:50px;
+            text-align: center;
+            color: white;
+
+
+        }
+        nav {
+            grid-area: nav;
+            background-color: gray;
+            border-radius: 12px;
+            text-align: center;
+            color: white;
+
+
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>header</header>
+        <aside>sidebar</aside>
+        <nav>nav</nav>
+        <article>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore suscipit ullam reiciendis praesentium quas aut cupiditate quaerat quo, hic voluptate nisi excepturi. Beatae numquam iste consequatur culpa accusantium magni minima.</article>
+        <footer>footer</footer>
+    </div>
+</body>
+</html>

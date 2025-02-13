@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> flex-wrap</title>
+    <style>
+        .container{
+            display: flex;
+            flex-wrap: wrap;
+            width: 750px;
+            gap: 12px;
+            border: 2px solid bisque;
+        }
+        .container > div{
+            display: flex;
+            height: 100px;
+            width: 150px;
+            padding: 12px 14px;
+            max-width: 300px;
+            font-size: 40px;
+            color: white;
+            justify-content: center;
+            align-items: center;       
+             }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div style="background-color: lightblue;">1</div>
+        <div style="background-color: lightcoral;">2</div>
+        <div style="background-color:lightgreen;">3</div>
+        <div style="background-color: lightpink;">4</div>
+        <div style="background-color: lightseagreen;">5</div>
+        <div style="background-color:chartreuse;">6</div>
+        <div style="background-color: lightsalmon;">7</div>
+        <div style="background-color: red;">8</div>
+        <div style="background-color:bisque;">9</div>
+        <div style="background-color: darkmagenta;">10</div>
+    </div>
+</body>
+</html>
